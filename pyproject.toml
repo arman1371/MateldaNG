@@ -1,0 +1,17 @@
+[project]
+name = "mateldang"
+version = "0.1.0"
+description = "MateldaNG"
+readme = "README.md"
+authors = [
+    { name = "arman1371", email = "arman.yazdani.10@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mateldang = "mateldang:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
